@@ -1,0 +1,80 @@
+body {
+    background-image: url('./img/cat.jpg');
+    background-size: 200px;
+}
+
+table {
+    background-color: white;
+    align-items: center;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    margin: auto;
+    padding: 10px;
+}
+
+#header {
+    background-color: cadetblue;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    align-content: center;
+}
+
+#judul {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+#important {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: white;
+}
+
+#info {
+    font-weight: bold;
+    margin: 0px;
+}
+
+#lebar {
+    width: 300px;
+}
+
+#project {
+    color: cadetblue;
+}
+
+#project:hover{
+    background-color: grey;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+td {
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+img {
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+li {
+    list-style-type: katakana;
+}
+
+text {
+    font-weight: normal;
+}
