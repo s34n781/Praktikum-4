@@ -8,11 +8,57 @@
     <link rel="stylesheet" type="text/css" href="w3.css">
 </head>
 <body>
-    <table>
-        <tr id="navbar">
-            <td><a href="#HTML">HTML</a></td>
-            <td><a href="#HTML">CSS</a></td>
-            <td><a href="#HTML">JAVASCRIPT</a></td>
+    <table cellspacing="0px">
+        <tr>
+            <td id="navbar"><a href="#html"><span id="navtext">HTML</span></a></td>
+            <td id="navbar"><a href="#css"><span id="navtext">CSS</span></a></td>
+            <td id="navbar"><a href="#java"><span id="navtext">JAVASCRIPT</span></a></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table id="html">
+                    <tr>
+                        <td>
+                            <a target="html"><h1>HTML</h1></a>
+                            The languange for building web pages<br>
+                            <input type="button" value="Learn HTML" class="tombol" id="learn"><br>
+                            <input type="button" value="HTML Reference" class="tombol" id="ref"><br>
+                            <input type="button" value="Get Certified" class="tombol" id="cert">
+                        </td>
+                        <td>
+                            <img src="./img/html.png">
+                        </td>
+                    </tr>
+                </table>
+                <table id="css">
+                    <tr>
+                        <td>
+                            <a target="css"><h1>CSS</h1></a>
+                            The languange for styling web pages<br>
+                            <input type="button" value="Learn CSS" class="tombol" id="learn"><br>
+                            <input type="button" value="CSS Reference" class="tombol" id="ref"><br>
+                            <input type="button" value="Get Certified" class="tombol" id="cert">
+                        </td>
+                        <td>
+                            <img src="./img/css.png">
+                        </td>
+                    </tr>
+                </table>
+                <table id="java">
+                    <tr>
+                        <td>
+                            <a target="java"><h1>JavaScript</h1></a>
+                            The languange for programming web pages<br>
+                            <input type="button" value="Learn JavaScript" class="tombol" id="learn"><br>
+                            <input type="button" value="JavaScript Reference" class="tombol" id="ref"><br>
+                            <input type="button" value="Get Certified" class="tombol" id="cert">
+                        </td>
+                        <td>
+                            <img src="./img/js.png">
+                        </td>
+                    </tr>
+                </table>
+            </td>
         </tr>
     </table>
 </body>

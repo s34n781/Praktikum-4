@@ -1,10 +1,82 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table, td {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
 #navbar{
-    background-color: black;
-    border-color: black;
+    width: 33%;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color:#282b30;
+    text-decoration: none;
+}
+
+#navbar:hover{
+    background-color:#1e2124;
+
+}
+
+#navbar:active{
+    background-color:#7289da;
+}
+
+#navtext {
+    color: white;
 }
 
 a {
     text-decoration: none;
+}
+
+#html {
+    background-color:#d9eee1;
+    height: 500px;
+    padding-right: 150px;
+}
+
+#css {
+    background-color:#fff4a3;
+    height: 500px;
+    padding-right: 150px;
+}
+
+#java {
+    background-color:#f3ecea;
+    height: 500px;
+    padding-right: 150px;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 20px;
+}
+
+.tombol {
+    margin: 10px;
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
     color: white;
-    
+    font-weight: bold;
+}
+
+#learn {
+    background-color:#04aa6d;    
+}
+
+#ref {
+    background-color:#15202b;    
+}
+
+#cert {
+    background-color:#ffc0c7;    
 }
